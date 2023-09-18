@@ -1,14 +1,8 @@
-from sklearn.feature_selection import RFE
-from sklearn.svm import LinearSVC
-from sklearn.preprocessing import MinMaxScaler, StandardScaler
-# from sklearn.datasets import load_iris
-# from sklearn import model_selection
 import pandas as pd
 import numpy as np
 from scipy.spatial import distance
 import random
 import matplotlib.pyplot as plt
-from sklearn.neighbors import NearestNeighbors
 import pycpd
 from scipy.optimize import linear_sum_assignment
 from scipy.spatial import distance
